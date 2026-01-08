@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agency | Contatti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo animate-hue">NEURAL<span style="color:white">MIND</span></a>
+                <input type="checkbox" id="nav-check">
+                <label for="nav-check" class="menu-toggle">
+                    <span>&#9776;</span>
+                </label>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Chi Siamo</a></li>
+                    <li><a href="services.html">Servizi</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="fade-in">
+        <div class="container">
+            <h1 class="section-title">Connettiti con il Futuro</h1>
+            <p style="text-align: center; margin-bottom: 3rem; color: var(--text-muted);">
+                Hai un progetto visionario? Noi abbiamo la tecnologia per realizzarlo.
+            </p>
+            
+            <div class="contact-form delay-1 pulse-glow" style="animation-duration: 4s;">
+                <form action="#" method="POST">
+                    <div style="margin-bottom: 20px;">
+                        <label for="name" style="display:block; margin-bottom: 8px; color: var(--accent-cyan);">Nome Completo</label>
+                        <input type="text" id="name" name="name" class="form-control" style="width: 100%;" required placeholder="Mario Rossi">
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label for="email" style="display:block; margin-bottom: 8px; color: var(--accent-cyan);">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" style="width: 100%;" required placeholder="mario@esempio.com">
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label for="subject" style="display:block; margin-bottom: 8px; color: var(--accent-cyan);">Oggetto</label>
+                        <select id="subject" name="subject" class="form-control" style="width: 100%;">
+                            <option value="info">Richiesta Informazioni</option>
+                            <option value="quote">Preventivo</option>
+                            <option value="collaboration">Collaborazione</option>
+                        </select>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <label for="message" style="display:block; margin-bottom: 8px; color: var(--accent-cyan);">Messaggio</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" style="width: 100%;" required placeholder="Raccontaci la tua visione..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn hover-glitch" style="width: 100%; cursor: pointer;">Trasmetti Segnale</button>
+                </form>
+            </div>
+
+            <div style="margin-top: 5rem; text-align: center;" class="fade-in delay-2">
+                <h3 style="color: var(--accent-purple);">Coordinate Terrestri</h3>
+                <p style="color: var(--text-muted); margin-top: 1rem;">Via dell'Innovazione 42, Milano Tech District</p>
+                <p style="color: var(--text-muted);">Email: <span style="color: var(--accent-cyan);">info@neuralmind.ai</span></p>
+                
+                <!-- Placeholder Map -->
+                <div style="margin-top: 2rem; width: 100%; height: 350px; background: #1a1a1a; display: flex; align-items: center; justify-content: center; border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); overflow: hidden; position: relative;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.114704771424!2d9.185924315556208!3d45.46542197910065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6ec44b42337%3A0xb363d64024c084f7!2sDuomo%20di%20Milano!5e0!3m2!1sit!2sit!4v1620000000000!5m2!1sit!2sit" width="100%" height="100%" style="border:0; filter: invert(90%) hue-rotate(180deg) contrast(1.2);" allowfullscreen="" loading="lazy"></iframe>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; box-shadow: inset 0 0 50px rgba(0,0,0,0.8);"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div style="text-align: center;">
+                <h3 class="logo" style="margin-bottom: 1rem;">NEURALMIND</h3>
+                <p>&copy; 2026 AI Agency. Engineered for the future.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
